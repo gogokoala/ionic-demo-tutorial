@@ -5,6 +5,7 @@ import { Platform, MenuController, Nav } from 'ionic-angular';
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ListPage } from '../pages/list/list';
 import { BarcodeListPage } from '../pages/barcode-list/barcode-list';
+import { StoragePage } from '../pages/storage/storage';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -32,7 +33,8 @@ export class MyApp {
     this.pages = [
       { title: 'Hello Ionic', component: HelloIonicPage },
       { title: 'My First List', component: ListPage },
-      { title: 'Barcode List', component: BarcodeListPage }
+      { title: 'Barcode List', component: BarcodeListPage },
+      { title: 'Storage', component: StoragePage}
     ];
   }
 
